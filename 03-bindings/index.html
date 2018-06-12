@@ -12,7 +12,7 @@
 
 <div id="app">
     <input type="text" v-on:input="cssClass = $event.target.value">
-    <p v-bind:class="cssClass">Class: {{ cssClass }}</p>
+    <p v-bind:class="cssClass">Class: {{ cssClass }}</p>  <!-- or use :class instead of v-bind:class -->
 </div>
 
 <script>
